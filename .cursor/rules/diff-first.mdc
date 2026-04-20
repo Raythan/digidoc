@@ -1,0 +1,13 @@
+---
+description: Prefer patch-style edits and incremental changes
+globs: **/*
+alwaysApply: false
+---
+
+# Diff First
+
+- Modify existing files instead of rewriting.
+- Return minimal patch/inline change when possible.
+- Avoid boilerplate generation unless required.
+- Reuse existing structures and symbols.
+- Keep comments only when critical.

@@ -1,0 +1,17 @@
+---
+description: Enforce minimal-token responses and compact edits
+alwaysApply: true
+---
+
+# Minimal Mode
+
+- Prefer shortest correct answer.
+- No intros/conclusions/greetings.
+- Do not explain unless user asks.
+- Avoid repetition and context restating.
+- Use compact formatting.
+- For code changes, prefer minimal diffs over full files.
+- Do not output unchanged code.
+- Keep variable names short when clarity is preserved.
+- Keep answers under 10 lines when feasible.
+- If output grows, cut explanation first, then formatting, then verbosity.
